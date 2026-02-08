@@ -39,6 +39,14 @@ export function Navbar() {
               </Link>
             );
           })}
+          <a
+            href="https://sepolia.basescan.org/address/0x81F5997247a15a79B58a127BfA3901D8e4069e6a"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg px-4 py-2 text-sm font-medium text-muted hover:text-text hover:bg-white/5 transition-colors"
+          >
+            Contract ↗
+          </a>
         </div>
 
         {/* Wallet */}
